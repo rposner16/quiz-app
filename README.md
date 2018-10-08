@@ -1,0 +1,2 @@
+# Quiz app
+This is a repo for a project that I worked on for Thinkful's full stack flex program.  It's a quiz on 17th century art (which is something I'm interested in), and it uses HTML, CSS, and JavaScript/jQuery.
