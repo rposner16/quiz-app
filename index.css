@@ -1,0 +1,97 @@
+body {
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+  background-color: cornsilk;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Question number and score styles (at top of page */
+header {
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.header-contents {
+  list-style-type: none;
+}
+
+.header-li {
+  display: inline;
+  padding: 10px;
+}
+
+/* Intro styles- at the beginning, the first question is not visible until you click "Begin"*/
+.quiz-intro {
+  padding: 15px;
+  padding-top: 15px;
+  margin-top: 30px;
+  width: 320px;
+  height: 340px;
+}
+
+.start-button {
+  margin-bottom: 10px;
+}
+
+.questionAnswer {
+  display: none;
+}
+
+/* Multiple choice options */
+.block-answer {
+  padding: 5px;
+}
+
+/* Styles for box colors and buttons*/
+.div-colors {
+  background-color: maroon;
+  color: white;
+  border: 20px groove goldenrod;
+}
+
+button {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.question-div {
+  padding-left: 20px;
+}
+
+.question-div, .feedback-form {
+  /*width: 550px;*/
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.feedback-form, .quiz-intro {
+  text-align: center;
+}
+
+button, .quiz-intro, .question-div, .feedback-form {
+  border-radius: 3px;
+}
+
+/* General formatting */
+.block-answer, img {
+  display: block;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.questionAnswer input[type="radio"], .questionAnswer input[type="radio"]+label {
+  display: inline-block;
+}
+
+fieldset {
+  border: none;
+}

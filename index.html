@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Take a quiz to test your knowledge of 17th century European art.">
+    <title>17th Century Art Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="float-grid.css" rel="stylesheet" type="text/css">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="row">
+      <header role="banner">
+        <ul class="header-contents">
+          <li class="header-li">Question: <span class="qNum">0</span>/10</li>
+        <li class="header-li">Score: <span class="score">0</span></li>
+        </ul>
+      </header>
+    </div>
+    <main role="main">
+      <div class="quiz-intro centered row">
+        <form class="start-form div-colors">
+          <h1>Art History Trivia Challenge</h1>
+          <h2>Test your knowledge of 17th century European art!</h2>
+          <button type="button" class="start-button">Begin
+          </button>
+        </form>
+      </div>
+      <div class="questionAnswer">
+      </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+    <script src="dataStore.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
